@@ -1,6 +1,6 @@
 package main
+//go:generate go run -ldflags="'-X k8s.io/client-go/pkg/version.gitVersion=v1.26.2' '-X k8s.io/component-base/version.gitVersion=v1.26.2' '-X k8s.io/component-base/version.gitMajor=1' '-X k8s.io/component-base/version.gitMinor=23'" github.com/moondev/kubectl@v1.26.2
 
-import (
 	"k8s.io/component-base/cli"
 	"k8s.io/kubectl/pkg/cmd"
 	"k8s.io/kubectl/pkg/cmd/util"
