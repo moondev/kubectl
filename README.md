@@ -1,0 +1,2 @@
+# kubectl
+go run kubectl
